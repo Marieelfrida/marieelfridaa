@@ -1,6 +1,4 @@
-const burgerIcon = document.querySelector(".burger-icon");
-const topMenu = document.querySelector(".top_menu_position");
-
-burgerIcon.addEventListener("click", () => {
-  topMenu.classList.toggle("show");
-});
+function toggleMenu() {
+  var menu = document.querySelector(".top_menu_position");
+  menu.style.display = menu.style.display === "block" ? "none" : "block";
+}
